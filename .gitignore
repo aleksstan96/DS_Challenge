@@ -1,0 +1,7 @@
+*.csv
+__pycache__/
+folds/
+data/
+cleaned_data/
+README.md
+*.png
