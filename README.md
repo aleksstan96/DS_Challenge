@@ -86,7 +86,7 @@ Grid search over key parameters:
 **Validation MAE**: 5.3551
 
 ### Feature Importance
-- Interesting insights can be gained from the feature importance plots. We can see that some of the engineered features are more important than the raw features.
+- Interesting insights can be gained from the feature importance plots. We can see that playtime on the first day of registration is of high importance. We can also see that some of the engineered features are more important than the raw features (e.g. frequency, mean and max days of active lifetime, session count, etc.
 ![alt text](feature_importance.png)
 
 ## Code 💻
