@@ -49,7 +49,6 @@ def cross_validate_model(df, features, target_col = "days_active_first_28_days_a
         train_preds = model.predict(x_train)
         valid_preds = model.predict(x_valid)
         
-        # Apply transformation before calculating metrics
         train_preds_transformed = prediction_transformer(train_preds)
         valid_preds_transformed = prediction_transformer(valid_preds)
         
@@ -85,13 +84,11 @@ def tune_and_cross_validate(df, features, param_grid, base_model_class, **cv_kwa
     for params in product(*param_values):
         current_params = dict(zip(param_keys, params))
         
-        # Create model with current parameters
         model = base_model_class(**current_params)
         
         print(f"\nTrying parameters: {current_params}")
         results = cross_validate_model(df, features, model=model, **cv_kwargs)
         
-        # Store results along with parameters
         mean_valid_mae = np.mean(results['valid_mae'])
         all_results.append({
             'params': current_params,
@@ -99,7 +96,6 @@ def tune_and_cross_validate(df, features, param_grid, base_model_class, **cv_kwa
             'std_valid_mae': np.std(results['valid_mae'])
         })
         
-        # Track best parameters
         if mean_valid_mae < best_score:
             best_score = mean_valid_mae
             best_params = current_params
@@ -128,13 +124,13 @@ if __name__ == "__main__":
     mae_param_grid = {
         'objective': ['reg:absoluteerror'],  # Most relevant objectives
         # 'objective': ['reg:absoluteerror', 'count:poisson', 'reg:tweedie'],  # Most relevant objectives
-        'eta': [0.08, 0.1],                                   # Same as learning_rate
+        'eta': [0.08, 0.1],                                   
         # 'gamma': [0.5, 0.1, 0.3],
-        'max_depth': [5, 6, 7],                                  # Tree depth
-        'n_estimators': [100, 150],                          # Number of trees
-        # 'subsample': [1.0],                             # Row sampling per tree
-        # 'reg_lambda': [1.0, 10.0],                           # L2 regularization (most important reg parameter)
-        'min_child_weight': [3, 5]                           # Controls overfitting
+        'max_depth': [5, 6, 7],                               
+        'n_estimators': [100, 150],                         
+        # 'subsample': [1.0],                             
+        # 'reg_lambda': [1.0, 10.0],                          
+        'min_child_weight': [3, 5]                           
     }
     
     # Tune XGBoost with MAE objective
