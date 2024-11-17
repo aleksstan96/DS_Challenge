@@ -1,0 +1,149 @@
+Trying parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'subsample': 0.8, 'min_child_weight': 3}
+
+Mean scores:
+train_mae: 4.5345 ± 0.0115
+valid_mae: 5.3556 ± 0.0581
+
+Trying parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'subsample': 0.8, 'min_child_weight': 5}
+
+Mean scores:
+train_mae: 4.5341 ± 0.0088
+valid_mae: 5.3586 ± 0.0638
+
+Trying parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'subsample': 1.0, 'min_child_weight': 3}
+
+Mean scores:
+train_mae: 4.5430 ± 0.0185
+valid_mae: 5.3605 ± 0.0650
+
+Trying parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'subsample': 1.0, 'min_child_weight': 5}
+
+Mean scores:
+train_mae: 4.5584 ± 0.0125
+valid_mae: 5.3551 ± 0.0604
+
+Trying parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 9, 'subsample': 0.8, 'min_child_weight': 3}
+
+Mean scores:
+train_mae: 3.5619 ± 0.0404
+valid_mae: 5.4697 ± 0.0545
+
+Trying parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 9, 'subsample': 0.8, 'min_child_weight': 5}
+
+Mean scores:
+train_mae: 3.5934 ± 0.0420
+valid_mae: 5.4563 ± 0.0484
+
+Trying parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 9, 'subsample': 1.0, 'min_child_weight': 3}
+
+Mean scores:
+train_mae: 3.5856 ± 0.0191
+valid_mae: 5.4673 ± 0.0614
+
+Trying parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 9, 'subsample': 1.0, 'min_child_weight': 5}
+
+Mean scores:
+train_mae: 3.5699 ± 0.0315
+valid_mae: 5.4513 ± 0.0736
+
+Trying parameters: {'objective': 'reg:absoluteerror', 'eta': 0.1, 'gamma': 0.5, 'max_depth': 6, 'subsample': 0.8, 'min_child_weight': 3}
+
+Mean scores:
+train_mae: 4.4672 ± 0.0135
+valid_mae: 5.3647 ± 0.0560
+
+Trying parameters: {'objective': 'reg:absoluteerror', 'eta': 0.1, 'gamma': 0.5, 'max_depth': 6, 'subsample': 0.8, 'min_child_weight': 5}
+
+Mean scores:
+train_mae: 4.4721 ± 0.0190
+valid_mae: 5.3583 ± 0.0633
+
+Trying parameters: {'objective': 'reg:absoluteerror', 'eta': 0.1, 'gamma': 0.5, 'max_depth': 6, 'subsample': 1.0, 'min_child_weight': 3}
+
+Mean scores:
+train_mae: 4.5038 ± 0.0176
+valid_mae: 5.3560 ± 0.0614
+
+Trying parameters: {'objective': 'reg:absoluteerror', 'eta': 0.1, 'gamma': 0.5, 'max_depth': 6, 'subsample': 1.0, 'min_child_weight': 5}
+
+Mean scores:
+train_mae: 4.5077 ± 0.0169
+valid_mae: 5.3572 ± 0.0597
+
+Trying parameters: {'objective': 'reg:absoluteerror', 'eta': 0.1, 'gamma': 0.5, 'max_depth': 9, 'subsample': 0.8, 'min_child_weight': 3}
+
+Mean scores:
+train_mae: 3.4456 ± 0.0269
+valid_mae: 5.4781 ± 0.0569
+
+Trying parameters: {'objective': 'reg:absoluteerror', 'eta': 0.1, 'gamma': 0.5, 'max_depth': 9, 'subsample': 0.8, 'min_child_weight': 5}
+
+Mean scores:
+train_mae: 3.4868 ± 0.0331
+valid_mae: 5.4918 ± 0.0609
+
+Trying parameters: {'objective': 'reg:absoluteerror', 'eta': 0.1, 'gamma': 0.5, 'max_depth': 9, 'subsample': 1.0, 'min_child_weight': 3}
+
+Mean scores:
+train_mae: 3.5274 ± 0.0632
+valid_mae: 5.4722 ± 0.0644
+
+Trying parameters: {'objective': 'reg:absoluteerror', 'eta': 0.1, 'gamma': 0.5, 'max_depth': 9, 'subsample': 1.0, 'min_child_weight': 5}
+
+Mean scores:
+train_mae: 3.5599 ± 0.0430
+valid_mae: 5.4636 ± 0.0605
+
+=== All Results (sorted by validation MAE) ===
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'subsample': 1.0, 'min_child_weight': 5}
+Valid MAE: 5.3551 ± 0.0604
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'subsample': 0.8, 'min_child_weight': 3}
+Valid MAE: 5.3556 ± 0.0581
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.1, 'gamma': 0.5, 'max_depth': 6, 'subsample': 1.0, 'min_child_weight': 3}
+Valid MAE: 5.3560 ± 0.0614
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.1, 'gamma': 0.5, 'max_depth': 6, 'subsample': 1.0, 'min_child_weight': 5}
+Valid MAE: 5.3572 ± 0.0597
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.1, 'gamma': 0.5, 'max_depth': 6, 'subsample': 0.8, 'min_child_weight': 5}
+Valid MAE: 5.3583 ± 0.0633
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'subsample': 0.8, 'min_child_weight': 5}
+Valid MAE: 5.3586 ± 0.0638
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'subsample': 1.0, 'min_child_weight': 3}
+Valid MAE: 5.3605 ± 0.0650
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.1, 'gamma': 0.5, 'max_depth': 6, 'subsample': 0.8, 'min_child_weight': 3}
+Valid MAE: 5.3647 ± 0.0560
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 9, 'subsample': 1.0, 'min_child_weight': 5}
+Valid MAE: 5.4513 ± 0.0736
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 9, 'subsample': 0.8, 'min_child_weight': 5}
+Valid MAE: 5.4563 ± 0.0484
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.1, 'gamma': 0.5, 'max_depth': 9, 'subsample': 1.0, 'min_child_weight': 5}
+Valid MAE: 5.4636 ± 0.0605
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 9, 'subsample': 1.0, 'min_child_weight': 3}
+Valid MAE: 5.4673 ± 0.0614
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 9, 'subsample': 0.8, 'min_child_weight': 3}
+Valid MAE: 5.4697 ± 0.0545
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.1, 'gamma': 0.5, 'max_depth': 9, 'subsample': 1.0, 'min_child_weight': 3}
+Valid MAE: 5.4722 ± 0.0644
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.1, 'gamma': 0.5, 'max_depth': 9, 'subsample': 0.8, 'min_child_weight': 3}
+Valid MAE: 5.4781 ± 0.0569
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.1, 'gamma': 0.5, 'max_depth': 9, 'subsample': 0.8, 'min_child_weight': 5}
+Valid MAE: 5.4918 ± 0.0609
+
+=== Best Parameters ===
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'subsample': 1.0, 'min_child_weight': 5}
+Valid MAE: 5.3551

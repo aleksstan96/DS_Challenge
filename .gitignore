@@ -9,5 +9,4 @@ src/utils.py
 src/*mlflow*.py
 aggregated_data/
 *.log
-*.txt
 src/train_two_stage_old.py

@@ -1,0 +1,491 @@
+=== All Results (sorted by validation MAE) ===
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.2774 ± 0.0536
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.1, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.2774 ± 0.0536
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.3, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.2774 ± 0.0536
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.2786 ± 0.0555
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.1, 'max_depth': 6, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.2786 ± 0.0555
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.3, 'max_depth': 6, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.2786 ± 0.0555
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.2817 ± 0.0571
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.1, 'max_depth': 6, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.2817 ± 0.0571
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.3, 'max_depth': 6, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.2817 ± 0.0571
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.2839 ± 0.0507
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.1, 'max_depth': 6, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.2841 ± 0.0507
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.3, 'max_depth': 6, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.2841 ± 0.0507
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.2843 ± 0.0549
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.1, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.2843 ± 0.0549
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.3, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.2843 ± 0.0549
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.2847 ± 0.0523
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.1, 'max_depth': 6, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.2847 ± 0.0523
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.3, 'max_depth': 6, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.2847 ± 0.0523
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.3365 ± 0.0487
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.1, 'max_depth': 6, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.3365 ± 0.0487
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.3, 'max_depth': 6, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.3365 ± 0.0487
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.3388 ± 0.0452
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.1, 'max_depth': 6, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.3388 ± 0.0452
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.3, 'max_depth': 6, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.3388 ± 0.0452
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.1, 'max_depth': 9, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.3398 ± 0.0541
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.3399 ± 0.0471
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.1, 'max_depth': 6, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.3399 ± 0.0471
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.3, 'max_depth': 6, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.3399 ± 0.0471
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.3399 ± 0.0468
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.1, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.3399 ± 0.0468
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.3, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.3399 ± 0.0468
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.1, 'max_depth': 6, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.3401 ± 0.0458
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.3, 'max_depth': 6, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.3401 ± 0.0458
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.3401 ± 0.0458
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.3420 ± 0.0449
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.1, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.3420 ± 0.0449
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.3, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.3420 ± 0.0449
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 9, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.3469 ± 0.0582
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.3, 'max_depth': 9, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.3469 ± 0.0548
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 9, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.3477 ± 0.0504
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 9, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.3482 ± 0.0600
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.1, 'max_depth': 9, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.3493 ± 0.0497
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.3, 'max_depth': 9, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.3503 ± 0.0545
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.3, 'max_depth': 9, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.3517 ± 0.0519
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.5, 'max_depth': 9, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.3527 ± 0.0530
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.3, 'max_depth': 9, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.3528 ± 0.0550
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.1, 'max_depth': 9, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.3534 ± 0.0542
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.1, 'max_depth': 9, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.3538 ± 0.0605
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.5, 'max_depth': 9, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.3539 ± 0.0535
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.3, 'max_depth': 9, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.3542 ± 0.0668
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.1, 'max_depth': 9, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.3555 ± 0.0522
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.1, 'max_depth': 9, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.3555 ± 0.0677
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.5, 'max_depth': 9, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.3563 ± 0.0519
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.3, 'max_depth': 9, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.3573 ± 0.0483
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.1, 'max_depth': 9, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.3583 ± 0.0500
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.5, 'max_depth': 9, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.3584 ± 0.0538
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.5, 'max_depth': 9, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.3586 ± 0.0511
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.3, 'max_depth': 9, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.3589 ± 0.0507
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.3, 'max_depth': 9, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.3594 ± 0.0517
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.1, 'max_depth': 9, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.3598 ± 0.0547
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.1, 'max_depth': 9, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.3611 ± 0.0515
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 9, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.3611 ± 0.0616
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.3, 'max_depth': 9, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.3611 ± 0.0515
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.5, 'max_depth': 9, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.3614 ± 0.0517
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.3, 'max_depth': 9, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.3635 ± 0.0546
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 9, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.3648 ± 0.0583
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.3, 'max_depth': 9, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.3653 ± 0.0550
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 9, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.3655 ± 0.0644
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.1, 'max_depth': 9, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.3664 ± 0.0563
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.1, 'max_depth': 9, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.3665 ± 0.0663
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.3, 'max_depth': 9, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.3699 ± 0.0607
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.1, 'max_depth': 9, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.3714 ± 0.0614
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 3, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.3820 ± 0.0299
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 3, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.3820 ± 0.0299
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.1, 'max_depth': 3, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.3820 ± 0.0299
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.1, 'max_depth': 3, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.3820 ± 0.0299
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.3, 'max_depth': 3, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.3820 ± 0.0299
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.3, 'max_depth': 3, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.3820 ± 0.0299
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 3, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.3822 ± 0.0314
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 3, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.3822 ± 0.0314
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.1, 'max_depth': 3, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.3822 ± 0.0314
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.1, 'max_depth': 3, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.3822 ± 0.0314
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.3, 'max_depth': 3, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.3822 ± 0.0314
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.3, 'max_depth': 3, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.3822 ± 0.0314
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 3, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.3822 ± 0.0314
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 3, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.3822 ± 0.0314
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.1, 'max_depth': 3, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.3822 ± 0.0314
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.1, 'max_depth': 3, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.3822 ± 0.0314
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.3, 'max_depth': 3, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.3822 ± 0.0314
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.3, 'max_depth': 3, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.3822 ± 0.0314
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.5, 'max_depth': 3, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.4936 ± 0.0277
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.5, 'max_depth': 3, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.4936 ± 0.0277
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.5, 'max_depth': 3, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.4936 ± 0.0277
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.5, 'max_depth': 3, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.4936 ± 0.0277
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.1, 'max_depth': 3, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.4936 ± 0.0277
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.1, 'max_depth': 3, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.4936 ± 0.0277
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.1, 'max_depth': 3, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.4936 ± 0.0277
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.1, 'max_depth': 3, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.4936 ± 0.0277
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.3, 'max_depth': 3, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.4936 ± 0.0277
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.3, 'max_depth': 3, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.4936 ± 0.0277
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.3, 'max_depth': 3, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.4936 ± 0.0277
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.3, 'max_depth': 3, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.4936 ± 0.0277
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.5, 'max_depth': 3, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.4952 ± 0.0253
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.5, 'max_depth': 3, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.4952 ± 0.0253
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.1, 'max_depth': 3, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.4952 ± 0.0253
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.1, 'max_depth': 3, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.4952 ± 0.0253
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.3, 'max_depth': 3, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.4952 ± 0.0253
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.025, 'gamma': 0.3, 'max_depth': 3, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.4952 ± 0.0253
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.5, 'max_depth': 9, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.6881 ± 0.0217
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.3, 'max_depth': 9, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.6886 ± 0.0228
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.5, 'max_depth': 9, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.6891 ± 0.0230
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.5, 'max_depth': 9, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.6892 ± 0.0237
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.1, 'max_depth': 9, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.6892 ± 0.0258
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.3, 'max_depth': 9, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.6893 ± 0.0257
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.1, 'max_depth': 9, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.6894 ± 0.0243
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.3, 'max_depth': 9, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.6894 ± 0.0238
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.5, 'max_depth': 9, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.6897 ± 0.0236
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.1, 'max_depth': 9, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.6899 ± 0.0242
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.1, 'max_depth': 9, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.6910 ± 0.0239
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.3, 'max_depth': 9, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.6911 ± 0.0241
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.1, 'max_depth': 9, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.6914 ± 0.0239
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.3, 'max_depth': 9, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.6915 ± 0.0231
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.5, 'max_depth': 9, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.6927 ± 0.0222
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.1, 'max_depth': 9, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.6933 ± 0.0215
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.3, 'max_depth': 9, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.6933 ± 0.0215
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.5, 'max_depth': 9, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.6936 ± 0.0219
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.7096 ± 0.0167
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.7096 ± 0.0181
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.1, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.7096 ± 0.0167
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.1, 'max_depth': 6, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.7096 ± 0.0181
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.3, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.7096 ± 0.0167
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.3, 'max_depth': 6, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.7096 ± 0.0181
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.7103 ± 0.0201
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.1, 'max_depth': 6, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.7103 ± 0.0201
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.3, 'max_depth': 6, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.7103 ± 0.0201
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.7106 ± 0.0183
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.1, 'max_depth': 6, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.7106 ± 0.0183
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.3, 'max_depth': 6, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.7106 ± 0.0183
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.7112 ± 0.0174
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.1, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.7112 ± 0.0174
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.3, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.7112 ± 0.0174
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.7126 ± 0.0189
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.1, 'max_depth': 6, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.7126 ± 0.0189
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.3, 'max_depth': 6, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.7126 ± 0.0189
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.5, 'max_depth': 3, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.8609 ± 0.0114
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.5, 'max_depth': 3, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.8609 ± 0.0114
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.1, 'max_depth': 3, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.8609 ± 0.0114
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.1, 'max_depth': 3, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.8609 ± 0.0114
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.3, 'max_depth': 3, 'reg_lambda': 0.5, 'min_child_weight': 1}
+Valid MAE: 5.8609 ± 0.0114
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.3, 'max_depth': 3, 'reg_lambda': 0.5, 'min_child_weight': 3}
+Valid MAE: 5.8609 ± 0.0114
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.5, 'max_depth': 3, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.8615 ± 0.0116
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.5, 'max_depth': 3, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.8615 ± 0.0116
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.1, 'max_depth': 3, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.8615 ± 0.0116
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.1, 'max_depth': 3, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.8615 ± 0.0116
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.3, 'max_depth': 3, 'reg_lambda': 0.01, 'min_child_weight': 1}
+Valid MAE: 5.8615 ± 0.0116
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.3, 'max_depth': 3, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.8615 ± 0.0116
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.5, 'max_depth': 3, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.8616 ± 0.0115
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.5, 'max_depth': 3, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.8616 ± 0.0115
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.1, 'max_depth': 3, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.8616 ± 0.0115
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.1, 'max_depth': 3, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.8616 ± 0.0115
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.3, 'max_depth': 3, 'reg_lambda': 0.1, 'min_child_weight': 1}
+Valid MAE: 5.8616 ± 0.0115
+
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.01, 'gamma': 0.3, 'max_depth': 3, 'reg_lambda': 0.1, 'min_child_weight': 3}
+Valid MAE: 5.8616 ± 0.0115
+
+=== Best Parameters ===
+Parameters: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 3}
+Valid MAE: 5.2774
