@@ -85,6 +85,18 @@ Validation MAE: 5.2774
 - For XGBoostClassifier: default parameters, objective='binary:logistic'
 Validation MAE: 5.3551
 
+## Code 💻
+**Important files**:
+- `notebooks/eda.ipynb` for the whole process description and eda
+- `src/check_values_train_test.py` for checking the values of different features in train and test sets
+- `src/data_cleaning.py` for data cleaning
+- `src/label_encoding.py` for label encoding
+- `src/transform_previous_lives_data.py` for transforming and feature engineering on previous lives data
+- `src/feature_engineering.py` for feature engineering and aggregation of both datasets
+- `src/stratified_kfold.py` for creating folds stratified by the target variable
+- `src/train.py` for the first modeling approach
+- `src/train_two_stage.py` for the second modeling approach
+
 ## Ideas for Future Work 💡
 - Since the distribution of the target variable is U-shaped, it suggests there are two groups of users. This information can be leveraged in the modeling process, e.g., by using mixture models.
 - Explore ensemble methods to combine predictions for improved accuracy.
