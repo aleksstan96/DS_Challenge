@@ -77,13 +77,13 @@ Grid search over key parameters:
 ### First Approach
 **Parameters**:
 - {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'reg_lambda': 0.01, 'min_child_weight': 3}
-Validation MAE: 5.2774
+**Validation MAE**: 5.2774
 
 ### Second Approach
 **Parameters**:
 - For XGBoostRegressor: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'subsample': 1.0, 'min_child_weight': 5}
 - For XGBoostClassifier: default parameters, objective='binary:logistic'
-Validation MAE: 5.3551
+**Validation MAE**: 5.3551
 
 ## Code 💻
 **Important files**:
