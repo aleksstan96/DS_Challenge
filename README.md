@@ -85,6 +85,10 @@ Grid search over key parameters:
 - For XGBoostClassifier: default parameters, objective='binary:logistic'
 **Validation MAE**: 5.3551
 
+### Feature Importance
+- Interesting insights can be gained from the feature importance plots. We can see that some of the engineered features are more important than the raw features.
+![alt text](feature_importance.png)
+
 ## Code 💻
 **Important files**:
 - `notebooks/eda.ipynb` for the whole process description and eda
