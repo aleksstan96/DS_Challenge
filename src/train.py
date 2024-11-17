@@ -2,6 +2,7 @@ import xgboost as xgb
 from sklearn import metrics
 import numpy as np
 import pandas as pd
+from itertools import product
 
 def round_and_clip(x):
     return np.clip(np.round(x), 0, 28)
@@ -69,39 +70,90 @@ def cross_validate_model(df, features, target_col = "days_active_first_28_days_a
     
     return results
 
+def tune_and_cross_validate(df, features, param_grid, base_model_class, **cv_kwargs):
+    """
+    Performs grid search with cross-validation
+    """
+    best_score = float('inf')
+    best_params = None
+    all_results = []
+    
+    # Generate all parameter combinations
+    param_keys = param_grid.keys()
+    param_values = param_grid.values()
+    
+    for params in product(*param_values):
+        current_params = dict(zip(param_keys, params))
+        
+        # Create model with current parameters
+        model = base_model_class(**current_params)
+        
+        print(f"\nTrying parameters: {current_params}")
+        results = cross_validate_model(df, features, model=model, **cv_kwargs)
+        
+        # Store results along with parameters
+        mean_valid_mae = np.mean(results['valid_mae'])
+        all_results.append({
+            'params': current_params,
+            'mean_valid_mae': mean_valid_mae,
+            'std_valid_mae': np.std(results['valid_mae'])
+        })
+        
+        # Track best parameters
+        if mean_valid_mae < best_score:
+            best_score = mean_valid_mae
+            best_params = current_params
+    
+    # Sort and print results
+    all_results.sort(key=lambda x: x['mean_valid_mae'])
+    print("\n=== All Results (sorted by validation MAE) ===")
+    for result in all_results:
+        print(f"\nParameters: {result['params']}")
+        print(f"Valid MAE: {result['mean_valid_mae']:.4f} ± {result['std_valid_mae']:.4f}")
+    
+    print(f"\n=== Best Parameters ===")
+    print(f"Parameters: {best_params}")
+    print(f"Valid MAE: {best_score:.4f}")
+
+    # Save results to csv
+    pd.DataFrame(all_results).to_csv("tuning_results.csv", index=False)
+    
+    return best_params, all_results
+
 if __name__ == "__main__":
-    df = pd.read_csv("/root/projects/ds_chlg/Data Science Challenge/Data Science/folds/train_folds_agg_data_5folds.csv")
+    df = pd.read_csv("/root/projects/ds_chlg/Data Science Challenge/Data Science/folds/train_folds_merged_5folds.csv")
     features = [f for f in df.columns if f not in ("kfold", "days_active_first_28_days_after_registration")]
     
-    # plain XGBoost regressor with mae objective
-    print("========= XGBoost regressor with mae objective")
-    results, valid_preds = cross_validate_model(df, features)
-
-    # XGBoost regressor with Poisson objective
-    print("========= XGBoost regressor with Poisson objective")
-    model = xgb.XGBClassifier(
-        objective='count:poisson',
-    )
-    results = cross_validate_model(df, features, model=model)
-
-    # XGBoost regressor with tweedie objective
-    print("========= XGBoost regressor with tweedie objective")
-    model = xgb.XGBRegressor(
-        objective='reg:tweedie',
-    )
-    results, valid_preds = cross_validate_model(df, features, model=model, prediction_transformer=round_and_clip)
-
-    # Example with custom model and metrics
-    # from sklearn.ensemble import RandomForestClassifier
-    # custom_model = RandomForestClassifier(n_estimators=100, random_state=42)
-    # custom_metrics = {
-    #     'accuracy': metrics.accuracy_score,
-    #     'mae': metrics.mean_absolute_error
-    # }
+    # Example parameter grids for different objectives
+    mae_param_grid = {
+        'objective': ['reg:absoluteerror'],  # Most relevant objectives
+        # 'objective': ['reg:absoluteerror', 'count:poisson', 'reg:tweedie'],  # Most relevant objectives
+        'eta': [0.08, 0.1],                                   # Same as learning_rate
+        # 'gamma': [0.5, 0.1, 0.3],
+        'max_depth': [5, 6, 7],                                  # Tree depth
+        'n_estimators': [100, 150],                          # Number of trees
+        # 'subsample': [1.0],                             # Row sampling per tree
+        # 'reg_lambda': [1.0, 10.0],                           # L2 regularization (most important reg parameter)
+        'min_child_weight': [3, 5]                           # Controls overfitting
+    }
     
-    # results = cross_validate_model(
-    #     df,
-    #     features,
-    #     model=custom_model,
-    #     metrics_funcs=custom_metrics
+    # Tune XGBoost with MAE objective
+    print("\n========= Tuning XGBoost regressor with different objectives")
+    best_params_mae, results_mae = tune_and_cross_validate(
+        df, 
+        features, 
+        mae_param_grid, 
+        xgb.XGBRegressor,
+        prediction_transformer=round_and_clip,
+        verbose=False
+    )
+    
+    # Tune XGBoost with Poisson objective
+    # print("\n========= Tuning XGBoost regressor with Poisson objective")
+    # best_params_poisson, results_poisson = tune_and_cross_validate(
+    #     df, 
+    #     features, 
+    #     poisson_param_grid, 
+    #     xgb.XGBRegressor,
+    #     prediction_transformer=round_and_clip
     # )

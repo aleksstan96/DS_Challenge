@@ -5,3 +5,9 @@ data/
 cleaned_data/
 README.md
 *.png
+mlruns/
+src/utils.py
+src/*mlflow*.py
+aggregated_data/
+*.log
+*.txt

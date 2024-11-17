@@ -15,6 +15,8 @@ aggs['dayofweek'] = ['nunique', mode_value]
 aggs['dayofmonth'] = ['nunique', mode_value]
 aggs['weekend'] = ['nunique', mode_value]
 
+aggs['registration_date'] = ['min', 'max']
+
 aggs['registration_country'] = ['nunique']
 aggs['registration_channel_detailed'] = ['nunique']
 aggs['registration_store'] = ['nunique']
@@ -22,5 +24,5 @@ aggs['registration_platform_specific'] = ['nunique']
 
 aggs['is_payer_lifetime'] = ['sum']
 aggs['is_rewarded_video_watcher_lifetime'] = ['sum']
-aggs['days_active_lifetime'] = ['sum', 'mean', 'max', 'min']
-aggs['transaction_count_iap_lifetime'] = ['sum', 'mean', 'max', 'min']
+aggs['days_active_lifetime'] = ['sum', 'mean', 'max', 'min', 'std']
+aggs['transaction_count_iap_lifetime'] = ['sum', 'mean', 'max', 'min', 'std']
