@@ -20,7 +20,7 @@ The data consists of two primary datasets:
 
 ## Methodology 🛠️
 
-*Note: Detailed explanation of the modeling process is in the Jupyter notebook: `notebooks/eda.ipynb`.*
+*Note: Detailed explanation of the whole process is in the Jupyter notebook: `notebooks/eda.ipynb`.*
 
 ### 1. Data Cleaning and Preprocessing
 **Purpose**: Address inconsistencies and prepare datasets for merging and modeling.
@@ -84,6 +84,8 @@ Grid search over key parameters:
 - For XGBoostRegressor: {'objective': 'reg:absoluteerror', 'eta': 0.08, 'gamma': 0.5, 'max_depth': 6, 'subsample': 1.0, 'min_child_weight': 5}
 - For XGBoostClassifier: default parameters, objective='binary:logistic'
 **Validation MAE**: 5.3551
+
+*Note: The **first** approach was used for the final submission since it generalizes better. Also, since regression was used, output values which are continuous values are rounded to the closest integer and bouded to the range [0, 28].*
 
 ### Feature Importance
 - Interesting insights can be gained from the feature importance plots. We can see that playtime on the first day of registration is of high importance. We can also see that some of the engineered features are more important than the raw features (e.g. frequency, mean and max days of active lifetime, session count, etc.
