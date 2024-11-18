@@ -36,11 +36,12 @@ The data consists of two primary datasets:
   - Users who are active for only a few days and then become inactive
   - Users who are active for more than ~20 days
 - Nominal features like registration_country exhibit many rare values
+- The EDA was performed in each step of the process, from data exploration to model building
 
 ### 3. Feature Engineering
-**Objective**: Enhance predictive power by creating derived features. Feature engineering is done on both previous_lives data and the merged data.
+**Objective**: Enhance predictive power by creating derived features. Feature engineering is done on both previous_lives dataset, as well as the merged dataset (merged dataset is the one obtained by merging previous_lives with registration_data).
 
-**Key Features**:
+**Key Engineered Features**:
 - **Recency, Frequency, Age**:
   - Time since last activity
   - Frequency of past activity (e.g., days_active_lifetime_mean)
@@ -52,8 +53,10 @@ The data consists of two primary datasets:
   - Match win rate, spending intensity, etc.
 
 ### 4. Model Building
-1. **First Approach**: Plain XGBoostRegressor
-2. **Second Approach**: Two-Stage Modeling:
+- I have decided to use XGBoost algorithm because it is very powerful and well-suited for columnar data (after merging and feature engineering, I have created 69 features), and it is also flexible when it comes to choosing the objective function (eventually, reg:absoluteerror was used since the performance was measured with MAE metric, but I have also tried Tweedie and Poisson since it seemed suitable for this type of data; results were very similar though). Categorical features were label encoded for this purpose. Also, XGBoost can handle feature importance implicitly.
+  
+1. **First Approach**: Plain XGBoostRegressor - tried out different objectives and tuned hyperparameters.
+2. **Second Approach**: Two-Stage Modeling - this boils down to modeling churn (whether user will be active) first, and then model the activity of users who will not churn separately (my idea here was that this approach will deal with zero-inflated distribution better, however the end results were very similar, perhaps because I did not have enough time to fine-tune the two-stage model since it is more complex and requires more hyperparameters to be tuned).
    - **Stage 1** (Binary Classification):
      - Predict whether a user will be active (days > 0) or inactive (days = 0)
      - Model: XGBoostClassifier
@@ -103,6 +106,6 @@ Grid search over key parameters:
 - `src/train.py` for the first modeling approach
 - `src/train_two_stage.py` for the second modeling approach
 
-## Ideas for Future Work 💡
-- Since the distribution of the target variable is U-shaped, it suggests there are two groups of users. This information can be leveraged in the modeling process, e.g., by using mixture models.
+## Ideas I did not have time to try out 💡
+- Since the distribution of the target variable is U-shaped, it suggests there are two (or more) groups of users. This information can be leveraged in the modeling process, e.g., by using mixture models. I would probably try to incorporate this in the two-stage model, so that non-churned users' activity can be modeled with a mixture model that could capture different types of users.
 - Explore ensemble methods to combine predictions for improved accuracy.
